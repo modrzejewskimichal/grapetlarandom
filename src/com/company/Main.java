@@ -5,12 +5,12 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static final int BOUND =10;
+    public static final int BOUND =100;
 
     public static void main(String[] args) {
         int b = new Random().nextInt(BOUND);
 
-        System.out.println("Zgadnij liczbe od 1 do 10;-)");
+        System.out.println("Zgadnij liczbe od 1 do 100;-)");
 
         while (0 != b) {
             System.out.println("Podaj liczbe");
